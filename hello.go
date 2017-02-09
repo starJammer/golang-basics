@@ -16,10 +16,14 @@ import (
 //mv $GOPATH/src/github.com/starJammer
 
 //Things to try:
-//go run hello.go -- compiles and runs in place
-//go build -- creates a binary called golang-basics
-//go build -o hello -- creates a binary named hello
-//go install -- creates the binary and installs it into your $GOPATH/bin directory
+//Compiles and runs in place
+//go run hello.go
+//Creates a binary called golang-basics
+//go build
+//Creates a binary named hello
+//go build -o hello
+//Creates the binary and installs it into your $GOPATH/bin directory
+//go install .
 func main() {
 	fmt.Println("I hate hello worlds")
 }
